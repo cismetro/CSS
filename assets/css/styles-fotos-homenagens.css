@@ -1,0 +1,108 @@
+    /* Estilos para a homenagem que não interferem com o template principal */
+    .homenagem-container {
+        --primary-color: #4fc9c4;
+        --text-color: #3f485d;
+        --border-color: #e5e5e5;
+        --light-bg: #f8f9fa;
+        --dark-color: #2a303b;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+    }
+
+    .homenagem-card {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+
+    .homenagem-header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .homenagem-header h1 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .homenagem-content {
+        padding: 30px;
+    }
+
+    .homenagem-photo-container {
+        text-align: center;
+        margin: 20px auto 30px;
+    }
+
+.homenagem-photo {
+    width: 350px; /* AUMENTAR TAMANHO */
+    height: 350px;
+    border-radius: 50%;
+    object-fit: contain; /* NÃO CORTA */
+    object-position: center;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #ebf9f9 0%, #d8f3f2 100%); /* FUNDO TURQUESA CLARO */
+    padding: 10px; /* ESPAÇAMENTO INTERNO */
+}
+
+    .homenagem-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .homenagem-wishes {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .homenagem-wishes h2 {
+        color: var(--primary-color);
+        margin-bottom: 15px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .homenagem-wishes p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .homenagem-footer {
+        margin-top: 30px;
+        border-top: 1px solid var(--border-color);
+        padding-top: 20px;
+        font-size: 14px;
+        color: #777;
+        text-align: center;
+    }
+
+    .homenagem-footer p {
+        margin-bottom: 5px;
+    }
+
+    @media (max-width: 768px) {
+        .homenagem-card {
+            margin: 0;
+            border-radius: 0;
+        }
+        
+        .homenagem-photo {
+            width: 250px;
+            height: 250px;
+        }
+        
+        .homenagem-content {
+            padding: 20px;
+        }
+    }
