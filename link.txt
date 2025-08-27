@@ -1,3 +1,4 @@
 https://cssintranetsaude.netlify.app
 
 <link rel="stylesheet" href="https://cssintranetsaude.netlify.app/assets/css/styles-fotos-homenagens.css">
+<link rel="stylesheet" href="https://cssintranetsaude.netlify.app/assets/css/styles-template-saude.css">
